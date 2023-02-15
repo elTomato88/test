@@ -1,0 +1,287 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Адаптивная вёрстка сайта</title>
+	<link href="https://fonts.cdnfonts.com/css/gogh" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="teststyle.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+	<link rel="stylesheet" href="fancybox.css">
+	<script src="fancybox.umd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+<header class="container">
+    
+		<a class="logo" href="#emptyline">
+		
+		<svg  width="121.09px" height="21.4px" viewBox="0 0 894 79" fill="none"  class="logotype">
+			<path _ngcontent-awc-c18="" d="M0.886626 39.4193C0.886626 16.3559 19.5218 0.610596 47.5856 0.610596C57.1235 0.644895 66.556 2.60613 75.3166 6.37647L71.1015 18.0191C63.9321 14.7065 56.1483 12.9312 48.2511 12.8076C29.2831 12.8076 19.5218 22.787 19.5218 39.4193C19.1211 42.7122 19.4058 46.0523 20.3581 49.2299C21.3104 52.4074 22.9096 55.3539 25.0554 57.8841C27.2012 60.4144 29.8472 62.4738 32.8273 63.933C35.8073 65.3923 39.0569 66.2198 42.3722 66.3637C47.7566 66.5326 53.0289 64.8037 57.267 61.4794C61.505 58.1551 64.4389 53.4471 65.5553 48.179H44.4797V35.6493H82.8594V77.0084H70.4359V58.2693C68.1739 64.5245 63.9486 69.8805 58.3909 73.5377C52.8331 77.1948 46.2411 78.9569 39.5991 78.5607C34.4693 78.5911 29.3852 77.596 24.6456 75.6342C19.906 73.6723 15.6065 70.7832 11.9999 67.1366C8.39321 63.4899 5.55216 59.1594 3.64369 54.3996C1.73522 49.6397 0.797835 44.5465 0.886626 39.4193Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M239.927 45.1852C238.578 55.8071 239.141 66.5849 241.591 77.0083H223.843C222.009 68.3393 221.337 59.4646 221.847 50.6184H116.913V77.0083H101.384V1.94116H205.652C228.502 1.94116 240.926 10.0356 240.926 26.1135C241.055 30.2856 239.843 34.3893 237.467 37.8219C235.091 41.2546 231.677 43.8353 227.726 45.1852H239.927ZM116.913 13.8056V38.5322H204.099C217.632 38.5322 224.398 34.984 224.398 25.8917C224.398 16.7994 218.186 13.5838 204.543 13.5838L116.913 13.8056Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M256.786 39.419C256.786 15.912 275.31 0.277588 302.043 0.277588C328.775 0.277588 347.411 16.3555 347.411 39.419C347.411 62.4824 328.665 78.5603 302.043 78.5603C275.421 78.5603 256.786 62.926 256.786 39.419ZM330.661 39.419C330.73 35.7374 330.013 32.0835 328.56 28.7001C327.107 25.3167 324.949 22.2812 322.232 19.7955C319.514 17.3098 316.299 15.4307 312.799 14.2831C309.299 13.1356 305.594 12.7459 301.932 13.1399C298.329 12.9061 294.715 13.4136 291.316 14.6312C287.917 15.8488 284.804 17.7506 282.169 20.2189C279.534 22.6872 277.434 25.6696 275.998 28.9816C274.562 32.2936 273.822 35.8648 273.822 39.4744C273.822 43.084 274.562 46.6552 275.998 49.9672C277.434 53.2792 279.534 56.2616 282.169 58.7299C284.804 61.1982 287.917 63.1 291.316 64.3176C294.715 65.5352 298.329 66.0428 301.932 65.8089C305.604 66.2043 309.318 65.8118 312.826 64.6578C316.334 63.5038 319.555 61.6147 322.274 59.1168C324.994 56.6189 327.148 53.5696 328.595 50.1728C330.041 46.776 330.746 43.1097 330.661 39.419Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M372.814 1.94116L394.999 59.0455L417.184 1.94116H432.602L454.787 58.3802L461.886 36.2038H477.859L465.436 77.2301H444.582L425.281 23.0088L405.648 77.0084H384.461L355.843 1.94116H372.814Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M472.867 1.94116H570.813L564.823 14.9144H525.667V77.0083H509.694V14.9144H468.652L472.867 1.94116Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M609.636 1.94116L644.245 77.0084H626.83L619.73 60.7087H579.798L572.144 77.2301H554.84L589.448 1.94116H609.636ZM615.072 48.6226L599.875 12.1423L584.346 48.6226H615.072Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M661.884 59.4886C670.56 63.8686 680.118 66.2194 689.836 66.3633C702.26 66.3633 708.915 62.5933 708.915 57.3819C708.915 43.189 659.332 46.2937 659.332 21.0125C659.332 8.48286 671.756 0.277588 691.722 0.277588C702.548 0.291803 713.26 2.47875 723.225 6.70875L718.788 18.9058C710.298 15.1293 701.125 13.1293 691.833 13.029C680.741 13.029 676.304 15.8011 676.304 20.7908C676.304 35.649 725.665 33.9857 725.665 58.0472C725.665 70.2442 712.576 78.893 690.058 78.893C678.839 78.9024 667.751 76.4814 657.558 71.7965L661.884 59.4886Z" fill="#0D0D0D"></path>
+			<path _ngcontent-awc-c18="" d="M760.049 1.94116V33.5426H836.032L869.974 1.94116H890.717L854.445 35.2058L893.823 76.6757H873.746L843.907 45.0743H760.16V76.7866H744.076V1.94116H760.049Z" fill="#0D0D0D"></path><path _ngcontent-awc-c18="" d="M302.045 48.5116C307.436 48.5116 311.806 44.143 311.806 38.754C311.806 33.365 307.436 28.9963 302.045 28.9963C296.654 28.9963 292.283 33.365 292.283 38.754C292.283 44.143 296.654 48.5116 302.045 48.5116Z" fill="#0D0D0D"></path>
+			
+		</svg>
+		<div id="toUp">Наверх</div>
+		</a>
+		<div class="nav-toggle"><span></span></div>
+        <ul id="menu">
+			<a href="#form"><li>К форме</li></a>
+			<a href="#answers_head"><li class="menu">Вопрос - ответ</li></a>
+			<a href="#pictures"><li class="menu">Кнопки и картинки</li></a>
+			<a href="#slider"><li class="menu">Пример слайдера</li></a>
+			<a href="#vacancy"><li class="menu">Текст и картинки</li></a>
+		</ul>
+    
+</header>
+
+<div id="emptyline" class="emptyline">
+</div>
+<div id="show_wonder" class="row">
+<div class="container">
+	<div class="posts-list show_wonder">
+		<article id="post-1" class="post">
+			<h1>Покажи нам чудеса<br>своей вёрстки</h1>
+			<p>Это текстовое задание, которое нужно просто и грамотно сверстать. Мы уверены,
+			что у тебя все получится.
+			</p>
+		</article>
+		<article id="post-2" class="post">
+			<div id="form_container">
+				<h4>
+					<span id="firstpeace">Покажи скролл на</span> до формы:
+					<a href="#form"><span id="to_form_button">К форме</span></a>
+				</h4>
+				
+			</div>
+		</article>
+	</div> 
+  
+  <aside id="shw_aside" class="show_wonder">
+	<div class="leftside">
+		<img src="img/notebook.jpg" alt="notebook with a girl">
+		<img src="img/blackhole.jpg" alt="blackhole romantic illustration">
+	</div>
+	<div class="rightside">
+		<img src="img/hands.png" alt="hands in the night">
+	</div>
+  </aside>
+</div>
+</div><!--Конец строки--->
+<div id="vacancy" class="row">
+<div class="container">
+	<div class="posts-list vacancy">
+		<div class="vacancy_about">
+		<h2>Про вакансию</h2>
+		<p>Мы ищем аккуратного верстальщика, который хочет
+		учиться и развиваться. С этим мы, конечно же, поможем. 
+		<br>
+		<br>
+		Напомним про условия:
+		</p>
+		</div>
+		<div class="vacancy_props">
+			<h1>20 000</h1>
+			<p>Твой оклад на время стажировка (Возможны премии)</p>
+		</div>
+		<div class="vacancy_props">
+			<h1>5/2</h1>
+			<p>Рабочий график</p>
+		</div>
+		<div class="vacancy_props">
+			<h1>8 ч</h1>
+			<p>Рабочий день</p>
+		</div>
+	</div>
+	<aside class="vacancy">
+		<img src="img/img1.webp" alt="studio and smiles">
+		<img src="img/start.webp" alt="studio and serious">
+		<img src="img/studio.jpg" alt="just studio">
+	</aside>
+</div>
+</div><!--Конец строки--->
+<div id="slider" class="row">
+<div class="container">
+	<div class="slider_head">
+		<div class="posts-list slider">
+			<h2>Сверстай слайдер</h2>
+		</div>
+		<aside class="slider">
+			<div class="button button_right" onclick='carousel(`right`);'><img id="button_right" src="img/button_right.png"></div>
+			<div class="button button_left" onclick='carousel(`left`);'><img id="button_left" src="img/button_left.png"></div>
+			
+		</aside>
+	</div>
+	
+	
+	<div id="carousel">
+		<div class="item"><a data-fancybox="images" href="img/animal01_full.jpg"><img class="card" src="img/animal01.webp"/><div class="sub_text">Северная корона</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal02_full.jpg"><img class="card" src="img/animal02.webp"/><div class="sub_text">Moscow barbering school</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal03_full.jpg"><img class="card" src="img/animal03.webp"><div class="sub_text">Rh store</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal04_full.jpeg"><img class="card" src="img/animal04.webp"><div class="sub_text">Poolspecial</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal05_full.jpg"><img class="card" src="img/animal05.webp"><div class="sub_text">Just bears</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal06_full.jpg"><img class="card" src="img/animal06.webp"><div class="sub_text">Squirrel</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal07_full.png"><img class="card" src="img/animal07.webp"><div class="sub_text">Quokka</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal08_full.jpg"><img class="card" src="img/animal08.webp"><div class="sub_text">Fox</div></a></div>
+		<div class="item"><a data-fancybox="images" href="img/animal09_full.png"><img class="card" src="img/animal09.webp"><div class="sub_text">Squirrel again</div></a></div>
+    </div>
+	
+</div>
+</div><!--Конец строки--->
+
+<div id="pictures" class="row">
+<div class="container">
+	<div class="pic_head">
+		<img id="pic_change" src="img/forest01.png" />
+		<div id="divradio_1" class="form_radio_btn" tabindex="0">
+			
+			<img src="img/forest01_min.png" alt="pic">
+			<label for="radio-1">Картинка 1</label>
+		</div>
+ 
+		<div id="divradio_2" class="form_radio_btn" tabindex="1">
+			
+			<img src="img/forest02_min.png" alt="pic">
+			<label for="radio-2">Картинка 2</label>
+		</div>
+ 
+		<div id="divradio_3" class="form_radio_btn" tabindex="3">
+			
+			<img src="img/forest03_min.png" alt="pic">
+			<label for="radio-3">Картинка 3</label>
+		</div>
+		
+		
+		
+	</div>
+</div>
+</div><!--Конец строки--->
+<div id="answers_head" class="row">
+<div class="container">
+	<div id="answers_head" class="answers_head">
+		<h2>Ответы на вопросы</h2>
+	<ul id="menu_list" class="container_list">
+		<li id="menu_list_1" class="menu_list">
+		<ul>
+			<li class="button_list">
+				<p>У вас много проектов?</p>
+					<img id="button_x_1" class="button_x" src="img/button_+.png"/>
+				
+			</li>
+			<li id="dropdown_1" class="dropdown">
+				
+					Достаточно, чтобы работать и получать удовольствие от работы)
+				
+			</li>
+		</ul>
+		</li>
+		
+		<li id="menu_list_2" class="menu_list">
+		<ul>
+			<li class="button_list">
+				<p>Есть ли карьерный рост?</p>
+					<img id="button_x_2" class="button_x" src="img/button_+.png"/>
+				
+			</li>
+			<li class="dropdown">
+				
+					Карьерный рост есть, но он зависит только от тебя. Никто специально
+					тянуть не будет
+				
+			</li>
+		</ul>
+		</li>
+		
+		<li id="menu_list_3" class="menu_list">
+		<ul>
+			<li class="button_list">
+				<p>У вас большой штат?</p>
+					<img id="button_x_3" class="button_x" src="img/button_+.png"/>
+				
+			</li>
+			<li class="dropdown">
+				
+					Штат небольшой
+				
+			</li>
+		</ul>
+		</li>
+		
+		<li id="menu_list_4" class="menu_list">
+		<ul>
+			<li class="button_list">
+				<p>Какие цели у вашей студии?</p>
+					<img id="button_x_4" class="button_x" src="img/button_+.png"/>
+				
+			</li>
+			<li class="dropdown">
+				
+					Развивать свои продукты в среднем ценовом сегменте.
+					Занять не занятую нишу отличных сайтов по адекватной цене. 
+				
+		</li>
+		</ul>
+		</li>
+			  
+	</ul>	
+	</div>
+</div>
+</div><!--Конец строки--->
+<footer id="form">
+
+<div class="container footer">
+	<form >
+		<input type="text" placeholder="Напиши вопрос*" required >
+		<input type="tel|email" placeholder="Телефон или почта*"  required>
+		<input type="text" placeholder="Твоё имя*" required>
+		
+		<input type="text" placeholder="Соц.сеть и мессенджер">
+		<input type="submit" value="Отправить заявку" />
+		<input id="politic" type="checkbox" required>
+		<label for="politic">Согласие с политикой</label>
+	</form>
+
+	<div class="circle_outside">
+		<h2>Форма ОС</h2>
+		<p>Сверстай форму обратной связи. Будет круто, если заявку </br>
+		будут приходить сюда: a@growtask.ru
+		</p>
+		<h4>Не забудь вставить соц.сети</br>
+			<img src="img/vk.png"/>
+			<img src="img/tg.png"/>
+		</h4>
+		<div class="circle_middle">
+			<div class="circle_inside">	
+			</div>
+		</div>
+	</div>
+	
+	<div class="right_circle_outside">
+	
+		<div class="right_circle_middle">
+			<div class="right_circle_inside">	
+			
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+</footer><!--Конец строки--->
+
+
+<script src="functions.js">
+
+	
+</script>
+</body>
+</html>
+ 
